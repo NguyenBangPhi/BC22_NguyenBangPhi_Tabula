@@ -1,0 +1,81 @@
+.infor{
+    .infor__form{
+        border-radius: 15px;
+        .infor__main{
+            background: #fff;
+            border-radius: 15px;
+        }
+    }
+    
+    .change{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .btContactRow{
+        display: flex;
+        flex-wrap: wrap;
+        .btnContactName{
+            flex: 1 0 50%;
+            max-width: 50%;
+            padding-right: 1em;
+            position: relative;
+            input{
+                padding-left: 40px;
+                border-radius: 20px;
+            }
+            i{
+                position: absolute;
+                top: 12px;
+                left: 12px;
+                color: #b61984;
+            }
+        }
+        .btnContactName2{
+            flex: 1 0 100%;
+            max-width: 100%;
+            padding-right: 1em;
+            position: relative;
+            input{
+                padding-left: 40px;
+                border-radius: 20px;
+            }
+            i{
+                position: absolute;
+                top: 12px;
+                left: 12px;
+                color: #b61984;
+            }
+        }
+        .btnContactName3{
+            flex: 1 0 100%;
+            max-width: 100%;
+            padding-right: 1em;
+            position: relative;
+            textarea{
+                padding-left: 40px;
+                border-radius: 20px;
+            }
+            i{
+                position: absolute;
+                top: 12px;
+                left: 12px;
+                color: #b61984;
+            }
+        }
+        .btButtonWidgetLink{
+            @extend .btButtonWidgetLink;
+            text-decoration: none;
+            align-items: center;
+            justify-content: center;
+            &:hover{
+                color: #b61984 !important;
+                -webkit-box-shadow: 0 0 0 1px #b61984 inset;
+                box-shadow: 0 0 0 1px #b61984 inset;
+            }
+        }
+    }
+    .flexSetting{
+        flex: 1 0 48%;
+    }
+}

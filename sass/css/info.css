@@ -1,0 +1,71 @@
+.info {
+  position: relative;
+  background-color: #dcd1f0;
+}
+
+.info .img__bot {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.info .item {
+  border-radius: 15px;
+  transition: all 1s;
+}
+
+.info .item .img2 {
+  position: absolute;
+  bottom: 0;
+}
+
+.info .item:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.info .item .item__top {
+  border-radius: 15px 15px 0 0;
+  max-width: 100%;
+  display: block;
+}
+
+.info .item .item__top span:hover img {
+  transform: scale3d(1.05, 1.05, 1.05);
+  border-radius: 20px 20px 0 0;
+}
+
+.info .item .item__top img {
+  max-width: 100%;
+  border-radius: 15px 15px 0 0;
+  transition: transform 650ms ease-in-out,filter 650ms ease-in-out;
+}
+
+.info .item .item__bot {
+  background-color: white;
+  border-radius: 0 0 15px 15px;
+}
+
+.info .item .item__bot .country {
+  display: block;
+  font-size: .75rem;
+  margin-bottom: 0.7em;
+  color: #b61984;
+  text-align: center;
+}
+
+.info .item .item__bot .name {
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.info .item .item__bot p {
+  text-align: center;
+}
+
+.info .z__in {
+  z-index: 1;
+}
+/*# sourceMappingURL=info.css.map */

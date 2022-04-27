@@ -1,0 +1,41 @@
+.main__bg1{
+    width: 100%;
+    background-image: url(../../img/yellow_top_wave_01.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 220px;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+// .main__bg2{
+//     width: 100%;
+//     background-image: url(../../img/Violet_top_left_wave.png);
+//     background-size: 100%;
+//     background-repeat: no-repeat;
+//     height: 100hv;
+//     position: absolute;
+//     bottom: 0;
+//     z-index: -1;
+// }
+.main{
+    position: relative;
+    
+    .main__info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        .main__text{
+            h3{
+                font-size: 1.1rem;
+                margin-bottom: 0.5em;
+                color: #b61984;
+            }
+            h1{
+                font-size: 68px;
+                font-weight: 700;
+            }
+        }
+    }
+}

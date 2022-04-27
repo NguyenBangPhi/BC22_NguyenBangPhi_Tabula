@@ -1,0 +1,92 @@
+.infor .infor__form {
+  border-radius: 15px;
+}
+
+.infor .infor__form .infor__main {
+  background: #fff;
+  border-radius: 15px;
+}
+
+.infor .change {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.infor .btContactRow {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.infor .btContactRow .btnContactName {
+  flex: 1 0 50%;
+  max-width: 50%;
+  padding-right: 1em;
+  position: relative;
+}
+
+.infor .btContactRow .btnContactName input {
+  padding-left: 40px;
+  border-radius: 20px;
+}
+
+.infor .btContactRow .btnContactName i {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  color: #b61984;
+}
+
+.infor .btContactRow .btnContactName2 {
+  flex: 1 0 100%;
+  max-width: 100%;
+  padding-right: 1em;
+  position: relative;
+}
+
+.infor .btContactRow .btnContactName2 input {
+  padding-left: 40px;
+  border-radius: 20px;
+}
+
+.infor .btContactRow .btnContactName2 i {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  color: #b61984;
+}
+
+.infor .btContactRow .btnContactName3 {
+  flex: 1 0 100%;
+  max-width: 100%;
+  padding-right: 1em;
+  position: relative;
+}
+
+.infor .btContactRow .btnContactName3 textarea {
+  padding-left: 40px;
+  border-radius: 20px;
+}
+
+.infor .btContactRow .btnContactName3 i {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  color: #b61984;
+}
+
+.infor .btContactRow .btButtonWidgetLink {
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.infor .btContactRow .btButtonWidgetLink:hover {
+  color: #b61984 !important;
+  box-shadow: 0 0 0 1px #b61984 inset;
+}
+
+.infor .flexSetting {
+  flex: 1 0 48%;
+}
+/*# sourceMappingURL=infor.css.map */

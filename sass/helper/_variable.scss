@@ -1,0 +1,75 @@
+//color
+$color-text-default: #2c2c2c;
+$color-text-hover: #b61984;
+$color-button-default: #b61984;
+$color-text-white: #f4d9ec;
+$color-text-title-icon: #191919;
+
+//font size
+$s-1: 5px;
+$s-2: 10px;
+$s-3: 15px;
+$s-4: 20px;
+$s-5: 25px;
+$s-6: 30px;
+$s-7: 35px;
+$s-8: 40px;
+$s-9: 45px;
+$s-10: 50px;
+
+//font weight
+$fw-1: 100;
+$fw-2: 200;
+$fw-3: 300;
+$fw-4: 400;
+$fw-5: 500;
+$fw-6: 600;
+$fw-7: 700;
+$fw-8: 800;
+$fw-9: 900;
+
+//letter spacing
+$ls-1: 0.015rem;
+$ls-2: 0.03rem;
+
+
+//Padding
+$pd-1: 10px;
+$pd-2: 20px;
+$pd-3: 30px;
+$pd-4: 40px;
+$pd-5: 50px;
+$pd-6: 60px;
+$pd-7: 70px;
+$pd-8: 80px;
+$pd-9: 90px;
+$pd-10: 100px;
+
+//Margin
+$mg-1: 10px;
+$mg-2: 20px;
+$mg-3: 30px;
+$mg-4: 40px;
+$mg-5: 50px;
+$mg-6: 60px;
+$mg-7: 70px;
+$mg-8: 80px;
+$mg-9: 90px;
+$mg-10: 100px;
+
+//border
+$bd-1: 2px;
+$bd-2: 4px;
+$bd-3: 6px;
+
+//break points
+$breakpoints: (
+    "extra-large": 1200px,
+    "large": 992px,
+    "medium": 768px,
+    "small": 576px,
+    "extra-large-down": 1199.98px,
+    "large-down": 991.98px,
+    "medium-down": 767.98px,
+    "small-down": 575.98px,
+);
